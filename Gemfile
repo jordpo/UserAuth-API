@@ -21,6 +21,8 @@ group :test do
   gem 'rspec-rails', '~> 3.1.0'
   gem 'shoulda-matchers', require: false
   gem 'vcr', '~> 2.9.3'
+  gem 'webmock'
+  gem 'rspec-its', '~> 1.0.1'
 end
 
 group :development, :test do
